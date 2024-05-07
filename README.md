@@ -101,8 +101,8 @@ g++ Read_LOR_Range_v4_DAQ.cpp -o Read_LOR_Range_v4_DAQ `root-config --cflags --g
 
 g++ Read_LOR_RangeSingle_v5.cpp -o Read_LOR_RangeSingle_v5 `root-config --cflags --glibs` -lSpectrum
 
-There are 7 arguments for Read_LOR_Range_v4_DAQ.cpp: 1. first read in output file, 2. second read in output file, 3. The exact measured time in second of the first output file, 4. 5. the approximate entrance range(in channel),
- 6. 7. the approximate PAG range (channel).
+There are 8 arguments for Read_LOR_Range_v4_DAQ.cpp: 1. first read in output file, 2. second read in output file, 3. The exact measured time in second of the first output file, 4. 5. the approximate entrance range(in channel),
+ 6. 7. the approximate PAG range (channel). 8. Detector sensitivity correction. 
 
 # to run the program:
 
